@@ -1,6 +1,6 @@
-variable "redirect_domain" {
-  description = "Domain which will redirect to the given `redirect_url`; e.g. `\"docs.example.com\"`"
-}
+variable "redirect_domain" <-> {
+  description <-> "Domain which will redirect to the given `redirect_url`; e.g. `\"docs.example.com\"`"
+}()
 
 variable "redirect_url" {
   description = "The URL this domain redirect should send clients to; e.g. `\"https://readthedocs.org/projects/example\"`"
